@@ -1,0 +1,456 @@
+(this.webpackJsonp = this.webpackJsonp || []).push([[2], {
+    1474: function(e, t, n) {
+        "use strict";
+        var o = n(0)
+          , c = n(2)
+          , r = n(11)
+          , a = n(8)
+          , i = n(3)
+          , l = n(5)
+          , d = function(e) {
+            var t = e.verbose;
+            return o.createElement(m, {
+                column: !0,
+                auto: !0,
+                align: "center"
+            }, t ? o.createElement(s, {
+                column: !0,
+                auto: !0,
+                align: "center"
+            }, o.createElement(f, {
+                fontSize: "larger"
+            }, "The most trusted platform for trading cryptocurrency"), o.createElement(h, {
+                tone: "weak"
+            }, "Coinbase Pro", " offers individuals the ability to trade a variety of digital assets on a secure, insurance backed platform.")) : o.createElement(i.h, {
+                align: "center",
+                fontSize: "large"
+            }, "Start trading on ", "Coinbase Pro", " today"), o.createElement(u, {
+                column: !0,
+                align: "center",
+                verbose: t
+            }, o.createElement(p, {
+                onClick: r.u.signup,
+                eventName: "landing_page_get_start_button_clicked",
+                intent: "primary",
+                primary: !0
+            }, "Get Started"), o.createElement(g, {
+                to: a.A.globals && a.A.globals.PRIME_URL,
+                eventName: "pro_landing_page_institutional_login_button_clicked",
+                textDecoration: "none",
+                fontSize: "smaller"
+            }, "Institution? Coinbase Prime →")))
+        }
+          , m = Object(c.c)(i.c).withConfig({
+            componentId: "sc-1fv5ohd-0"
+        })(["width:100%;max-width:", ";"], function(e) {
+            return e.theme.spacing.maxWidth
+        })
+          , s = Object(c.c)(i.c).withConfig({
+            componentId: "sc-1fv5ohd-1"
+        })(["padding-top:30px;"])
+          , u = Object(c.c)(i.c).withConfig({
+            componentId: "sc-1fv5ohd-2"
+        })(["margin-top:80px;margin-bottom:", ";"], function(e) {
+            return e.verbose ? "120px" : "20px"
+        })
+          , p = Object(c.c)(l.d).withConfig({
+            componentId: "sc-1fv5ohd-3"
+        })(["width:200px;margin-bottom:20px;"])
+          , g = Object(c.c)(l.t).withConfig({
+            componentId: "sc-1fv5ohd-4"
+        })(["color:", ";transition:color 0.2s;&:hover{color:", ";}"], function(e) {
+            return e.theme.colors.text.default
+        }, function(e) {
+            return e.theme.colors.primary.default
+        })
+          , f = Object(c.c)(i.h).withConfig({
+            componentId: "sc-1fv5ohd-5"
+        })(["display:flex;flex:1;margin-bottom:15px;text-align:center;"])
+          , h = Object(c.c)(i.h).withConfig({
+            componentId: "sc-1fv5ohd-6"
+        })(["text-align:center;"])
+          , b = n(314)
+          , w = n(12)
+          , E = n(4)
+          , x = n(9)
+          , k = n(196)
+          , v = Object(c.c)(i.c).withConfig({
+            componentId: "sc-1ty9rbo-0"
+        })(["width:100%;"])
+          , C = Object(c.c)(i.c).attrs({
+            align: "center"
+        }).withConfig({
+            componentId: "sc-1ty9rbo-1"
+        })(["width:350px;height:auto;"])
+          , y = Object(c.c)(l.t).withConfig({
+            componentId: "sc-1ty9rbo-2"
+        })(["display:flex;text-decoration:none;transition:color 0.2s;", ";"], function(e) {
+            var t = e.theme;
+            return Object(c.b)(["color:", ";&:hover,&:focus{color:", ";}"], t.colors.text.default, t.colors.primary.focus)
+        })
+          , j = Object(c.c)(i.c).withConfig({
+            componentId: "sc-1ty9rbo-3"
+        })(["width:", ";"], function(e) {
+            return e.width || "60px"
+        })
+          , I = Object(c.c)(l.d).withConfig({
+            componentId: "sc-1ty9rbo-4"
+        })(["margin-left:20px;padding:0 20px;border:1px solid ", ";color:", ";background:none;&:hover{border:1px solid ", ";color:", ";}"], function(e) {
+            return e.theme.colors.text.default
+        }, function(e) {
+            return e.theme.colors.text.default
+        }, function(e) {
+            return e.theme.colors.primary.flocus
+        }, function(e) {
+            return e.theme.colors.primary.focus
+        })
+          , _ = function(e) {
+            var t = e.logo
+              , n = e.links;
+            return o.createElement(v, {
+                justify: "space-between",
+                align: "center"
+            }, o.createElement(C, null, o.createElement(l.w, {
+                icon: t
+            })), o.createElement(C, {
+                justify: "space-around"
+            }, o.createElement(i.c, {
+                auto: !0,
+                justify: "space-between"
+            }, n.map(function(e) {
+                return o.createElement(j, {
+                    key: e.text,
+                    width: e.width,
+                    justify: "center"
+                }, o.createElement(y, {
+                    to: e.url,
+                    eventName: e.eventName
+                }, e.text))
+            }))), o.createElement(C, {
+                justify: "flex-end"
+            }, o.createElement(i.c, {
+                align: "center"
+            }, o.createElement(y, {
+                "data-pup": k.LANDING.LOGIN_BUTTON,
+                onClick: r.u.signin,
+                eventName: "landing_page_header_login_clicked"
+            }, "Log In"), o.createElement(I, {
+                "data-pup": k.LANDING.SIGNUP_BUTTON,
+                onClick: r.u.signup,
+                eventName: "landing_page_header_signup_clicked"
+            }, "Sign up"))))
+        }
+          , O = [{
+            text: "Help",
+            url: "https://support.".concat("pro", ".coinbase.com"),
+            eventName: "landing_page_header_help_clicked"
+        }, {
+            text: "API",
+            url: "https://docs.".concat("pro", ".coinbase.com"),
+            eventName: "landing_page_header_API_clicked"
+        }, {
+            text: "Fees",
+            url: "/fees",
+            eventName: "landing_page_header_fees_clicked"
+        }, {
+            text: "View Exchange",
+            url: "/trade",
+            eventName: "landing_page_header_view_exchange_clicked",
+            width: "150px"
+        }]
+          , P = function() {
+            return o.createElement(i.c, {
+                column: !0
+            }, o.createElement(N, {
+                primary: !0,
+                intent: "primary",
+                onClick: r.u.signup,
+                eventName: "landing_page_header_signup_clicked"
+            }, "Sign Up"), o.createElement(S, {
+                textDecoration: "none",
+                onClick: r.u.signin,
+                eventName: "landing_page_header_login_clicked"
+            }, "Log In"))
+        }
+          , N = Object(c.c)(l.d).withConfig({
+            componentId: "sc-1333mby-0"
+        })(["margin:0 40px 10px;"])
+          , S = Object(c.c)(l.t).withConfig({
+            componentId: "sc-1333mby-1"
+        })(["display:flex;justify-content:center;align-items:center;height:40px;font-size:14px;color:", ";"], function(e) {
+            return e.theme.colors.text.default
+        })
+          , z = Object(E.c)(function(e) {
+            var t = e.compact;
+            return x.f.isMobile ? o.createElement(l.s, {
+                compact: t,
+                links: O,
+                product: "Pro",
+                authLinks: o.createElement(P, null),
+                logo: o.createElement(w.lb, null)
+            }) : o.createElement(_, {
+                compact: t,
+                links: O,
+                logo: o.createElement(w.lb, null)
+            })
+        })
+          , A = c.c.div.withConfig({
+            componentId: "sc-14f2tzw-0"
+        })(["z-index:1;"])
+          , L = Object(c.c)(i.c).withConfig({
+            componentId: "sc-14f2tzw-1"
+        })(["position:relative;background-color:", ";"], function(e) {
+            return e.theme.colors.base.default
+        })
+          , W = Object(c.c)(i.c).attrs({
+            column: !0,
+            align: "center"
+        }).withConfig({
+            componentId: "sc-14f2tzw-2"
+        })(["padding:", ";"], function(e) {
+            var t = e.theme;
+            return e.compact ? "20px 40px" : t.spacing.padding
+        })
+          , D = c.c.div.withConfig({
+            componentId: "sc-14f2tzw-3"
+        })(["position:absolute;width:100%;height:", ";overflow:hidden;@media (max-width:600px){", ";}"], function(e) {
+            return e.compact ? "80px" : "50%"
+        }, function(e) {
+            var t = e.theme;
+            return Object(c.b)(["background-image:linear-gradient( to bottom,", ",", " );"], t.colors.gradientDark.default, t.colors.gradientLight.default)
+        })
+          , T = c.c.div.withConfig({
+            componentId: "sc-14f2tzw-4"
+        })(["width:200%;", ";@media (max-width:600px){display:none;}"], function(e) {
+            var t = e.theme
+              , n = e.compact;
+            return Object(c.b)(["height:", ";border-radius:", ";background-image:linear-gradient( to bottom,", ",", " );transform:", ";"], n ? "80px" : "80%", n ? 0 : "50%", t.colors.gradientDark.default, t.colors.gradientLight.default, n ? null : "translate(-25%, -50%)")
+        })
+          , G = function(e) {
+            var t = e.children
+              , n = e.compact;
+            return o.createElement(c.a, {
+                theme: i.j.noirLanding
+            }, o.createElement(L, {
+                column: !0,
+                noShrink: !0
+            }, o.createElement(D, {
+                compact: n
+            }, o.createElement(T, {
+                compact: n
+            })), o.createElement(A, null, o.createElement(W, {
+                compact: n
+            }, o.createElement(z, {
+                compact: n
+            })), o.createElement(b.n, null), t, o.createElement(W, null, o.createElement(d, null), o.createElement(b.i, {
+                logo: o.createElement(w.lb, null)
+            })), o.createElement(b.h, null))))
+        };
+        n.d(t, "a", function() {
+            return d
+        }),
+        n.d(t, "b", function() {
+            return G
+        })
+    },
+    1600: function(e, t, n) {
+        e.exports = n.p + "assets/pro-trading-view.e85d153be54905b44a35f81495636623.jpg"
+    },
+    1601: function(e, t, n) {
+        e.exports = n.p + "assets/world-class-trading.9067f429918c3ed6154802c7554a31eb.jpg"
+    },
+    1852: function(e, t, n) {
+        "use strict";
+        n.r(t);
+        var o = n(0)
+          , c = n(27)
+          , r = n(13)
+          , a = n(2)
+          , i = n(314)
+          , l = n(1474)
+          , d = n(3)
+          , m = n(5)
+          , s = n(12);
+        var u, p, g = function(e) {
+            var t = e.icon
+              , n = e.label
+              , c = e.children
+              , r = e.link
+              , a = e.linkContent;
+            return o.createElement(E, null, o.createElement(t, null), o.createElement(x, null, n), o.createElement(k, null, c), o.createElement(m.t, {
+                to: r
+            }, a))
+        }, f = Object(a.c)(d.c).attrs({
+            column: !0,
+            align: "center"
+        }).withConfig({
+            componentId: "sc-8iakno-0"
+        })(["width:100%;max-width:", ";"], function(e) {
+            return e.theme.spacing.maxWidth
+        }), h = Object(a.c)(d.h).attrs({
+            fontSize: "large"
+        }).withConfig({
+            componentId: "sc-8iakno-1"
+        })(["text-align:center;"]), b = Object(a.c)(d.c).attrs({
+            align: "center",
+            column: !0
+        }).withConfig({
+            componentId: "sc-8iakno-2"
+        })(["padding-bottom:20px;"]), w = Object(a.c)(d.c).attrs({
+            justify: "space-around"
+        }).withConfig({
+            componentId: "sc-8iakno-3"
+        })(["flex-wrap:wrap;width:100%;@media (max-width:600px){flex-direction:column;align-items:center;}"]), E = Object(a.c)(d.c).attrs({
+            align: "center",
+            column: !0,
+            noShrink: !0
+        }).withConfig({
+            componentId: "sc-8iakno-4"
+        })(["width:300px;padding-top:60px;"]), x = Object(a.c)(d.h).withConfig({
+            componentId: "sc-8iakno-5"
+        })(["padding-top:10px;padding-bottom:5px;"]), k = Object(a.c)(d.h).attrs({
+            fontSize: "small",
+            tone: "weak",
+            align: "center"
+        }).withConfig({
+            componentId: "sc-8iakno-6"
+        })(["padding-bottom:10px;"]), v = [s.ab, s.T, s.V].map(function(e) {
+            return Object(a.c)(e).withConfig({
+                componentId: "sc-8iakno-7"
+            })(["width:auto;height:50px;"])
+        }), C = (p = 3,
+        function(e) {
+            if (Array.isArray(e))
+                return e
+        }(u = v) || function(e, t) {
+            var n = []
+              , o = !0
+              , c = !1
+              , r = void 0;
+            try {
+                for (var a, i = e[Symbol.iterator](); !(o = (a = i.next()).done) && (n.push(a.value),
+                !t || n.length !== t); o = !0)
+                    ;
+            } catch (e) {
+                c = !0,
+                r = e
+            } finally {
+                try {
+                    o || null == i.return || i.return()
+                } finally {
+                    if (c)
+                        throw r
+                }
+            }
+            return n
+        }(u, p) || function() {
+            throw new TypeError("Invalid attempt to destructure non-iterable instance")
+        }()), y = C[0], j = C[1], I = C[2], _ = function() {
+            return o.createElement(f, null, o.createElement(b, null, o.createElement(h, null, "Coinbase Pro", " is the best place to trade digital currency")), o.createElement(w, null, o.createElement(g, {
+                icon: I,
+                label: "Industry leading API",
+                link: "https://docs.pro.coinbase.com",
+                linkContent: "Full API documentation →"
+            }, "Our Websocket feed lets you easily gain access to real-time market data, while our trading API lets you develop secure, programmatic trading bots."), o.createElement(g, {
+                icon: j,
+                label: "Insurance protection",
+                link: "https://support.pro.coinbase.com/customer/en/portal/articles/2943954-how-deposits-are-insured-on-coinbase-pro?b_id=17474",
+                linkContent: "Learn more →"
+            }, "All digital assets held in online storage are fully insured. All USD balances are covered by FDIC insurance, up to a maximum of $250,000 per customer."), o.createElement(g, {
+                icon: y,
+                label: "0% maker fees",
+                link: "/fees",
+                linkContent: "See our fee structure →"
+            }, "Coinbase Pro offers no fees on maker trades and offers volume-based discounts on all taker fees, going as low as 0.1%.")))
+        }, O = Object(a.c)(d.c).withConfig({
+            componentId: "sc-104jdb9-0"
+        })(["align-items:center;"]), P = Object(a.c)(d.h).withConfig({
+            componentId: "sc-104jdb9-1"
+        })(["margin-bottom:40px;text-align:center;"]), N = Object(a.c)(m.o).withConfig({
+            componentId: "sc-104jdb9-2"
+        })(["min-width:100%;max-width:", ";margin-top:10px;"], function(e) {
+            return e.theme.spacing.maxWidth
+        }), S = function() {
+            return o.createElement(O, {
+                column: !0
+            }, o.createElement(P, {
+                fontSize: "large"
+            }, "Have a question about ", "Coinbase Pro", "?"), o.createElement(d.c, {
+                column: !0,
+                align: "center"
+            }, o.createElement(N, {
+                title: "Where are ".concat("Coinbase Pro", " orders placed?")
+            }, o.createElement(d.h, null, "Coinbase Pro provides direct access to Coinbase Markets, our single source of liquidity. All orders placed on Pro are placed directly on the market the same way they are on GDAX.")), o.createElement(N, {
+                title: "What trading fees does ".concat("Coinbase Pro", " charge?")
+            }, o.createElement(d.h, null, "Coinbase pro charges ", o.createElement(d.h, {
+                fontWeight: "bold"
+            }, "0%"), " for maker orders and ", o.createElement(d.h, {
+                fontWeight: "bold"
+            }, "0.30%"), " for taker orders. For our complete fee schedule, see our fees page.")), o.createElement(N, {
+                title: "Who can sign up for ".concat("Coinbase Pro", "?")
+            }, o.createElement(d.h, null, "Coinbase Pro is designed for individual traders. Anyone in the following", " ", o.createElement(m.t, {
+                to: "https://support.pro.coinbase.com/customer/en/portal/articles/2945308-locations-and-trading-pairs"
+            }, "geographies"), " ", "may create a Pro account. If you already have a Coinbase account, it is easy to upgrade to Pro and start trading now!"))))
+        }, z = n(1600), A = n.n(z), L = a.c.img.withConfig({
+            componentId: "kp2xkf-0"
+        })(["width:80%;height:auto;@media (max-width:600px){width:100%;}"]), W = function() {
+            return o.createElement(L, {
+                src: A.a,
+                role: "presentation"
+            })
+        }, D = n(1601), T = n.n(D), G = Object(a.c)(d.c).attrs({
+            align: "center",
+            justify: "center"
+        }).withConfig({
+            componentId: "afrn2a-0"
+        })(["flex-wrap:wrap;height:550px;background:url(", ") no-repeat center center;background-size:cover;", ";"], T.a, function(e) {
+            var t = e.theme;
+            return Object(a.b)(["padding:", ";"], t.spacing.padding)
+        }), U = Object(a.c)(d.c).withConfig({
+            componentId: "afrn2a-1"
+        })(["max-width:500px;"]), B = Object(a.c)(d.h).withConfig({
+            componentId: "afrn2a-2"
+        })(["margin-bottom:30px;text-align:center;"]), F = function() {
+            return o.createElement(G, null, o.createElement(U, {
+                column: !0
+            }, o.createElement(B, {
+                fontSize: "large"
+            }, "World class trading platform"), o.createElement(d.h, {
+                align: "center"
+            }, "Coinbase Pro", " offers an intuitive interface with real time orderbooks, charting tools, trade history, and a simple order process so you can trade from day one.")))
+        }, M = Object(a.c)(d.c).withConfig({
+            componentId: "bsdwci-0"
+        })(["z-index:1;"]), q = Object(a.c)(d.c).attrs({
+            column: !0,
+            align: "center"
+        }).withConfig({
+            componentId: "bsdwci-1"
+        })(["padding:", ";background:", ";"], function(e) {
+            return e.theme.spacing.padding
+        }, function(e) {
+            var t = e.theme;
+            return e.noBackground ? null : t.colors.base.default
+        }), H = function() {
+            return o.createElement(l.b, null, o.createElement(M, {
+                column: !0
+            }, o.createElement(q, {
+                noBackground: !0
+            }, o.createElement(l.a, {
+                verbose: !0
+            }), o.createElement(W, null)), o.createElement(a.a, {
+                theme: d.j.noir
+            }, o.createElement(i.m, null)), o.createElement(a.a, {
+                theme: d.j.lightLanding
+            }, o.createElement(q, null, o.createElement(_, null))), o.createElement(F, null), o.createElement(a.a, {
+                theme: d.j.lightLanding
+            }, o.createElement(q, null, o.createElement(S, null)))))
+        };
+        t.default = function(e) {
+            var t = e.user;
+            return t && t.active_at ? o.createElement(c.c, {
+                to: "/trade"
+            }) : (Object(r.d)("landing_page_viewed"),
+            o.createElement(H, null))
+        }
+    }
+}]);
